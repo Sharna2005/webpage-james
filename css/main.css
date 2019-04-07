@@ -1,0 +1,79 @@
+/***** BASE STYLES *****/
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+    font-family: 'Lora', serif;
+}
+ #why-us, #what-we-do, #our-bussiness{
+    height: auto;
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/************* Header Setion ********/
+
+.head-l{
+    font-size: 30px;
+    padding:5px;
+    margin: 0px 30px 170px 0px;
+}
+h1 {
+    padding:0px 10px 15px 70px;
+    font-family: 'Lora', serif;
+    font-variant:small-caps;
+    color:rgb(18, 100, 86);
+    float:left;
+}
+nav {
+    float: right; 
+    padding: 10px 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0b2e01;
+    padding-left: 12px; 
+}
+.pic h2 {
+    width: 1100px;
+    clear: both;
+    font-family:'Lora', serif;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fcfdfc;
+    margin: 140px;
+    padding: 15px 160px 15px 10px;
+    text-align: center;
+}
+.pic h2 span {
+    color: rgb(124, 209, 116);
+}
+.pic {
+    height: 600px;
+    background-image: url(../img/repair-76679_1280.jpg);
+    background-size: cover;
+}
+/******** about section***/
+
+/********* Contact *******/
+
+footer{
+    Background-color:#ebebeb;
+}
